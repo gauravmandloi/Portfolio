@@ -1,23 +1,303 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="css/custom.css" rel="stylesheet"></link>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    
-    <title>IT Engineer</title>
-    <script src="js/load.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-   <section id="navigation"></section>
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50">
+        <nav class="bg-white border-gray-200 ">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://gauravmandloi.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-sem ibold whitespace-nowrap">GM</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a class="text-white bg-blue-700 hover:bg-blue-800 hover:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        href="document/Gaurav Mandloi Resume.pdf" download="Gaurav Mandloi">Download
+                        CV
+                    </a>
+
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 dark:focus:ring-gray-600"
+                        aria-controls="navbar-cta" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500">About
+                                Me</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 d:dark:hover:text-blue-500">Services</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Details and Main Image -->
+    <div class="mx-auto px-4 mb-8 bg-gradient-to-r from-indigo-100">
+        <div class="items-center flex flex-wrap ">
+
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4 z-40">
+                <div class="md:pr-12 pt-6">
+                    <div class="mb-8">
+                        <h5 class="text-lg font-semibold text-blue-600 py-1">Hey There 👋 I am</h5>
+                        <h3 class="text-4xl font-bold py-1">Gaurav Mandloi</h3>
+                        <h1 class="text-2xl font-bold py-1 text-slate-500 font-medium">Professional <span
+                                class="text-slate-950">Backend Developer</span></h1>
+                        <p class="mt-4 text-lg leading-relaxed text-gray-700">
+                            I have 2.5 years of experience in backend development and have worked on critical projects
+                            like Magma HDI Insurance and PNB Housing Limited using HTML, CSS, Bootstrap, JavaScript,
+                            Jquery, Java, Liferay 7.1, Liferay 7.4, Liferay 7.4 cloud and MySQL.
+                        </p>
+                    </div>
+
+                    <div class="mb-8">
+                        <button type="button"
+                            class="text-white sm:mr-4 bg-blue-700 mb-4 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact
+                            Me</button>
+                        <button type="button"
+                            class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-9 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Learn
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 z-40">
+                <img alt="..." class="max-w-full rounded-lg" src="images/hero-image.png" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <section class="pt-10 md:pb-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center mb-8 z-50">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Project's</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                        Magma HDI General Insurance and PNB Housing Finance
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+                        <img alt="..." src="images/General Insurance Company in India.png"
+                            class="shadow-lg max-w-full mx-auto" style="height: 50px; max-width: 120px;" />
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold">Magma HDI General Insurance</h5>
+                            <p class="mt-1 text-base text-gray-500 font-semibold">
+                                Magma HDI is general insurance company provide wide range of general insurance online
+                                related to Health, Motor car, Individual Health Insurance etc.
+                            </p>
+                            <div class="mt-6">
+                                <a class="text-white mr-4 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    href="http://magmahdi.com" target=" _blank">
+                                    Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+                        <img alt="..." src="images/PNB Housing Finance.png" class="shadow-lg max-w-full mx-auto"
+                            style="max-width: 120px;" />
+                        <div class="pt-6 text-center">
+                            <h5 class="text-xl font-bold">PNB Housing Finance</h5>
+                            <p class="mt-1 text-base text-gray-500 font-semibold">
+                                At PNB Housing Finance, avail home loan, loan against property & FD with attractive
+                                interest rate and lowest EMI for long tenure. Apply Now!
+                            </p>
+                            <div class="mt-6">
+                                <a class="text-white mr-4 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    href="https://www.pnbhousing.com" target=" _blank">
+                                    Website</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Timeline-->
+    <section class="md:pt-10 pb-20">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center mb-8 z-50">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h2 class="text-4xl font-semibold">Timeline</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+                        Education and Professional Experience Timeline
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-8/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+                        <div class="container">
+                            <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+                                <li class="mb-10 ms-4">
+                                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-700">Professional Experience (July 2021 - Present)</time>
+                                    <h3 class="text-lg font-semibold text-gray-900">InfoAxon Technology Pvt. Ltd.</h3>
+                                    <p class="mb-4 text-base font-normal text-gray-600 dark:text-gray-600">InfoAxon accelerates digital transformation for companies globally by leveraging the best in breed open-source
+                                        technologies and creating digital engagement solutions across channels. Seamlessly integrated digital
+                                        experience solutions allow companies to better engage with partners, employees and customers.</p>
+                                </li>
+                                <li class="mb-10 ms-4">
+                                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-700">Passout Year 2021</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Graduation</h3>
+                                    <p class="text-base font-normal text-gray-600 dark:text-gray-600">Completed B.Tech from Sushila Devi Bansal College of Technology, Indore in 2021 with 7.22 CGPA.</p>
+                                </li>
+                                <li class="mb-10 ms-4">
+                                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-700">Passout Year 2017</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Higher Secondary</h3>
+                                    <p class="text-base font-normal text-gray-600 dark:text-gray-600">Completed 12th from Choithram Fountain H. Sec. School in 2017 with 7.14 CGPA.</p>
+                                </li>
+                                <li class="ms-4">
+                                    <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time class="mb-1 text-sm font-normal leading-none text-gray-700 dark:text-gray-700">Passout Year 2015</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Secondary</h3>
+                                    <p class="text-base font-normal text-gray-600 dark:text-gray-600">Completed 10th from Choithram Fountain H. Sec. School in 2015 with 7.13 CGPA</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                    <div class="px-6">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
     
+
+
+    <!-- Footer -->
+    <footer class="relative bg-gradient-to-r from-indigo-100 pt-8 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                        Find me on any of these platforms, try to respond as earliest.
+                    </h5>
+                    <div class="mt-6 mb-8">
+                        <button
+                            class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fa fa-linkedin"></i></button>
+                        <button
+                            class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fa fa-facebook"></i></button>
+                        <button
+                            class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                            type="button">
+                            <i class="fa fa-instagram"></i></button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="https://gauravmandloi.com">Home</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="https://gauravmandloi.com/about-me.html">About Me</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="https://gauravmandloi.com/services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="https://gauravmandloi.com/contact-us.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4">
+                            <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other
+                                Resources</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="document/Gaurav Mandloi Resume.pdf" download="Gaurav Mandloi">Download
+                                        CV</a>
+                                </li>
+
+                                <li>
+                                    <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                                        href="https://gauravmandloi.com/contact-us">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear())</script> Gaurav Mandloi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 </body>
+
 </html>
