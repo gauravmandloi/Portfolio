@@ -4,14 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+       $(function() {
+        var url = window.location.href;
+        if(url.includes('#pnb')){debugger;
+            window.scrollTo(0, 800);
+            console.log('hello')
+        }
+        
+});
+    </script>
 </head>
 
 <body>
     <!-- Navigation -->
-    <header class="sticky top-0 z-50 ">
+    <header class="sticky top-0 z-50">
         <nav class="bg-white border-gray-200 ">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="https://gauravmandloi.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -61,101 +72,179 @@
             </div>
         </nav>
     </header>
-    <!-- Details and Main Image -->
-    <div class="mx-auto px-4 bg-gradient-to-r from-indigo-100 tracking-wider">
-        <div class="items-center flex flex-wrap ">
 
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4 z-40">
-                <div class="md:pr-12 pt-6">
-                    <div class="mb-8">
-                        <h5 class="text-lg font-semibold text-blue-600 py-1">Hey There 👋 I am</h5>
-                        <h3 class="text-4xl font-bold py-1">Gaurav Mandloi</h3>
-                        <h1 class="text-2xl font-bold py-1 text-slate-500 font-medium">Professional <span
-                                class="text-slate-950">Backend Developer</span></h1>
-                        <p class="mt-4 text-lg leading-relaxed text-gray-700  tracking-wider">
-                            I have 2.5 years of experience in backend development and have worked on critical projects
-                            like Magma HDI Insurance and PNB Housing Limited using HTML, CSS, Bootstrap, JavaScript,
-                            Jquery, Java, Liferay 7.1, Liferay 7.4, Liferay 7.4 cloud and MySQL.
-                        </p>
-                    </div>
 
-                    <div class="mb-8">
-                        <a href="/contact-me.html" class="text-white sm:mr-4 bg-blue-700 mb-4 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact
-                            Me</a>
-                        <a href="/learn-more.html" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm px-9 py-3 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Learn
-                            More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 z-40">
-                <img alt="..." class="max-w-full rounded-lg" src="images/hero-image.png"/>
-            </div>
+
+    <section class="bg-gradient-to-r from-indigo-100 pt-8">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+            <h3 class="text-lg font-semibold text-blue-600 py-1">Hey There 👋 I am</h3>
+            <h3 class="text-4xl font-bold py-1">Gaurav Mandloi</h3>
+            <h1 class="text-4xl font-bold py-1 text-slate-500 font-medium">Professional Backend Developer</h1>
+            <p
+                class="mb-8 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                Hey there, Greetings from my side.. thanks for visiting my website so my self gaurav mandloi i am
+                professional backend developer with over 2.5 years of experience working in InfoAxon Technology Pvt. Ltd from July 2021 - Present.
+                <br> <span class="text-lg font-semibold text-gray-900">Educational qualifications : </span>Talking about
+                my qualifications i have done my graduation from sushila devi bansal college of technology, indore with
+                7.12 CGPA.
+                <br> <span class="text-lg font-semibold text-gray-900">Strengths & Weakness : </span> so my strength is
+                a positive mind, self-motivated & hard-working person towards my career and my life.
+                my weakness is I feel uncomfortable until I finish my work.
+                <br><span class="text-lg font-semibold text-gray-900">Hobbie's : </span>My hobbies are Mobile Photography and Pencil sketches.
+                <br> <span class="text-lg font-semibold text-gray-900">Long & Short-term goals: </span>My short-term
+                goal is to get a job in a well-reputed company and my long-term goal is to achieve a good position where
+                I'm working.
+                <br> Last but not least Coming to my technical skill i have a good command on HTML, CSS, Bootstrap,
+                JavaScript,
+                Jquery, Java, Liferay 7.1, Liferay 7.4, Liferay 7.4 cloud and MySQL
+            </p>
+
         </div>
-    </div>
+    </section>
 
-    <!-- Projects -->
-    <section class="pt-10 md:pb-10 bg-gradient-to-r from-indigo-100 tracking-wider">
+    <section class="sm:pt-3 pb-5 bg-gradient-to-r from-indigo-100 tracking-wider">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-center text-center mb-8 z-50">
                 <div class="w-full lg:w-6/12 px-4">
-                    <h2 class="text-4xl font-semibold">Project's</h2>
-                    <p class="text-lg leading-relaxed m-4 text-gray-600">
-                        Magma HDI General Insurance and PNB Housing Finance
+                    <h2 class="text-4xl font-semibold">Project's Details</h2>
+                    <p class="text-lg leading-relaxed m-4 text-gray-600 tracking-widest uppercase underline">
+                        <span class="text-gray-900 From 1-Aug-2021 to 30-May-2023">Magma HDI Insurance - </span> From
+                        1-Aug-2021 to 30-May-2023
                     </p>
                 </div>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-2/12 lg:w-1/12 lg:mb-0 mb-3 px-4">
                     <div class="px-6">
 
                     </div>
                 </div>
-                <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-8/12 lg:w-10/12 lg:mb-0 mb-3 px-4">
                     <div class="px-6">
-                        <img alt="..." src="images/General-Insurance-Company.png"
-                            class="shadow-lg max-w-full mx-auto" style="height: 50px; max-width: 120px;" loading="lazy"/>
-                        <div class="pt-6 text-center">
-                            <h5 class="text-xl font-bold">Magma HDI General Insurance</h5>
-                            <p class="mt-1 text-base text-gray-500 font-semibold">
+                        <div class="container">
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
                                 Magma HDI is general insurance company provide wide range of general insurance online
-                                related to Health, Motor car, Individual Health Insurance etc.
+                                related to health
+                                insurance, motor car insurance, Individual health insurance and etc</p>
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Role - Solution Developer (Team Lead)</p>
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Technology - HTML, CSS, FTL, Bootstrap, JavaScript, jQuery, Java, Liferay 7.1, MySQL.
                             </p>
-                            <div class="mt-6">
-                                <a class="text-white mr-4 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                    href="http://magmahdi.com" target=" _blank">
-                                    Website</a>
-                            </div>
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Framework - Spring (Middleware RedHat Fuse Karaf server)</p>
+
+
+                            <h2
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Responsibilities:</h2>
+                            <ul
+                                class="list-disc list-inside mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                <li>
+                                    Implementation of Insurance for Health insurance, Motor insurance, Individual personal insurance &
+                                    Third-party private car and two-wheeler insurance etc. Using Liferay custom portlets based on java
+                                    language as a back-end and front-end using HTML, CSS, Bootstrap. JavaScript & jQuery.
+                                </li>
+                                <li>
+                                    Understanding and analyzing project flow.
+                                </li>
+                                <li>
+                                    Creating a wrapper APIs on middleware with Spring framework.
+                                </li>
+                                <li>
+                                    Integration with wrapper APIs provided by the middleware on the Liferay custom portlets.
+                                </li>
+                                <li>
+                                    Requirement gathering session with client for better understanding.
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
-                    <div class="px-6">
-                        <img alt="..." src="images/PNB-Housing-Finance.png" class="shadow-lg max-w-full mx-auto"
-                            style="max-width: 120px;" loading="lazy" />
-                        <div class="pt-6 text-center">
-                            <h5 class="text-xl font-bold">PNB Housing Finance</h5>
-                            <p class="mt-1 text-base text-gray-500 font-semibold">
-                                At PNB Housing Finance, avail home loan, loan against property & FD with attractive
-                                interest rate and lowest EMI for long tenure. Apply Now!
-                            </p>
-                            <div class="mt-6">
-                                <a class="text-white mr-4 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-9 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                    href="https://www.pnbhousing.com" target=" _blank">
-                                    Website</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full md:w-6/12 lg:w-2/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-2/12 lg:w-1/12 lg:mb-0 mb-3 px-4">
                     <div class="px-6">
 
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+    <section class="bg-gradient-to-r from-indigo-100 tracking-wider">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center text-center mb-8 z-50">
+                <div class="w-full lg:w-6/12 px-4">
+                   
+                    <p class="text-lg leading-relaxed m-4 text-gray-600 tracking-widest uppercase underline">
+                        <span class="text-gray-900 From 1-Aug-2021 to 30-May-2023">PNB (Punjab National Bank) Housing Finance </span> From 1-May-2023 to Present
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-2/12 lg:w-1/12 lg:mb-0 mb-3 px-4">
+                    <div class="px-6">
+
+                    </div>
+                </div>
+                <div class="w-full md:w-8/12 lg:w-10/12 lg:mb-0 mb-3 px-4">
+                    <div class="px-6">
+                        <div class="container">
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                PNB Housing provides housing loans to individuals and corporate bodies for purchase, construction, repair and
+                                upgradation of houses. It also provides loans for commercial space, loan against property and loan for
+                                purchase of residential plots</p>
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Role - Solution Developer (Team Lead)</p>
+                            <p
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Technology - HTML, CSS, Bootstrap, JavaScript, jQuery, Java, JSP, Liferay 7.4 Cloud, MySQL.
+                            </p>
+
+                            <h2
+                                class="mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                Responsibilities:</h2>
+                            <ul
+                                class="list-disc list-inside mb-2 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 lg:px-49 mb-3 text-gray-900 dark:text-gray-900  tracking-wider py-2">
+                                <li>
+                                    Implementation of Enquiry for Home loan, Fixed Deposit, Request a Call Back, Book An appointment, Credit Report, Customer
+Referral, Became business partner etc.
+                                </li>
+                                <li>
+                                    Understanding and analyzing project flow.
+                                </li>
+                                <li>
+                                    Integration with Rest APIs provided by the PNB and Experian (Credit Report) on the Liferay custom
+portlets. 
+                                </li>
+                                <li>
+                                    Integration with web engage (Tracking user behavior or movement on the website) services related to
+                                    customer details for marketing data.
+                                </li>
+                                <li>
+                                    Requirement gathering session with client for better understanding.
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/12 lg:w-1/12 lg:mb-0 mb-3 px-4">
+                    <div class="px-6">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!--Timeline-->
     <section class="md:pt-10 pb-5 bg-gradient-to-r from-indigo-100 tracking-wider">
         <div class="container mx-auto px-4">
@@ -216,13 +305,8 @@
             </div>
         </div>
     </section>
-    
 
-    
-
-
-
-
+    <!-- Footer -->
     <hr class="border-gray-400 bg-gradient-to-r from-indigo-100 tracking-wider">
     <!-- Footer -->
     <footer class="relative bg-gradient-to-r from-indigo-100 pt-8 pb-6 tracking-wider">
@@ -267,7 +351,7 @@
                                 </li>
                                 <li>
                                     <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                                        href="/contact-me.html">Contact</a>
+                                        href="contact-me.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
