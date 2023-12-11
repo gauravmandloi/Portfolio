@@ -337,7 +337,7 @@ portlets.
                                 </li>
                                 <li>
                                     <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                                        href="contact-me.html">Contact</a>
+                                        href="/contact-me.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -370,7 +370,15 @@ portlets.
             </div>
         </div>
     </footer>
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+        class="fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-blue-700 hover:bg-blue-700 text-white text-lg font-semibold transition-colors duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+        </svg>
+        <span class="sr-only">Go to top</span>
+    </button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+    <script src="js/GoToTop.js"></script>
 </body>
 
 </html>
