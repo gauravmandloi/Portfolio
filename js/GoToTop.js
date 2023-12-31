@@ -20,3 +20,12 @@ var toTopButton = document.getElementById("to-top-button");
             });
         };
     }
+
+function validatePassword(){debugger;
+   var password = document.getElementById("password").value;
+   if(password == ""){
+    return;
+   }else if(password == '8313'){
+        window.location.href='/learn-more.html'
+   }
+}
